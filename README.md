@@ -8,15 +8,19 @@ CI/CD is the practice of automatically integrating, testing, and shipping code c
 
 ## What is inside
 
-- `01-ci-vs-cd-vs-cd.md` what integration, delivery, and deployment each mean and how they differ.
-- `02-pipelines-and-stages.md` how a pipeline is built from ordered stages that fail fast.
-- `03-what-to-automate-first.md` tests, build, and lint, in the order worth adding them.
-- `04-artifacts-environments-gates.md` build outputs, promotion between environments, and approval gates.
-- `05-example-pipeline-outline.md` a concrete stage-by-stage pipeline you can adapt.
+- [01-ci-vs-cd-vs-cd.md](01-ci-vs-cd-vs-cd.md) what integration, delivery, and deployment each mean and how they differ.
+- [02-pipelines-and-stages.md](02-pipelines-and-stages.md) how a pipeline is built from ordered stages that fail fast.
+- [03-what-to-automate-first.md](03-what-to-automate-first.md) tests, build, and lint, in the order worth adding them.
+- [04-artifacts-environments-gates.md](04-artifacts-environments-gates.md) build outputs, promotion between environments, and approval gates.
+- [05-example-pipeline-outline.md](05-example-pipeline-outline.md) a concrete stage-by-stage pipeline you can adapt.
 
 ## The stance
 
 This reference treats CI/CD as a discipline for shrinking the cost and risk of change, not a specific tool. Start with automated tests on every commit, add build and lint, then grow toward automated delivery only when the safety checks are trustworthy. Automate the boring, repeatable parts so humans decide only what genuinely needs judgment.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
